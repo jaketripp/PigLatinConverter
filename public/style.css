@@ -1,0 +1,18 @@
+#main {
+  width: 1000px;
+  max-width: 95%;
+  margin: 10vh auto;
+}
+
+body {
+  background-color: #f39c12;
+}
+
+.ui.form textarea {
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.ui.buttons {
+  width: 100%;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pig Latin Converter</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css">
+
+    <link rel="stylesheet" type="text/css" href="public/style.css">
+</head>
+<body>
+
+<div class="ui raised segment" id="main">
+
+  <h1>Pig Latin Converter</h1>
+
+  <div class="ui form">
+    <div class="two fields">
+      <div class="field">
+        <label>English</label>
+        <textarea rows="20" cols="50" id="english" placeholder="We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America."></textarea>
+      </div>
+    
+      <div class="field">
+        <label>Pig Latin</label>
+        <textarea rows="20" cols="50" id="pig" placeholder="E-way e-thay Eople-pay of-way e-thay United-way Ates-stay, in-way Order-way o-tay orm-fay a-way ore-may erfect-pay Union-way, establish-way Ustice-jay, insure-way omestic-day Anquility-tray, ovide-pray or-fay e-thay ommon-cay efence-day, omote-pray e-thay eneral-gay Elfare-way, and-way ecure-say e-thay Essings-blay of-way Iberty-lay o-tay ourselves-way and-way our-way Osterity-pay, o-day ordain-way and-way establish-way is-thay Onstitution-cay or-fay e-thay United-way Ates-stay of-way America-way."></textarea>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="ui buttons">
+    <button class="ui green button">Translate</button>
+    <button class="ui red button">Reset</button>
+  </div>
+    
+</div>
+
+
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
