@@ -74,10 +74,7 @@ function toEnglish(str){
 	return str.replace(regex, getEnglish);
 }
 
-// not perfect, IDK if it CAN be without AI.
-// doesn't handle words that start with 'w' and are immediately followed by a vowel.
-// crossreferencing a dictionary api might help fix words like 'with' / 'ith-way'
-// but that still isn't perfect because of words like 'wart' / 'art-way' ('art' is also 'art-way')
+// decides whether to translate to english or pig latin and does it
 function decideAndTranslate(str){
 	var hyphensArray = str.match(/-/g);
 
@@ -107,15 +104,18 @@ function handlers(){
 		$('#to').val(decideAndTranslate(text));		
 	});
 	
+	// reset
 	$('.red').on('click', function(){
 		$('#from').val('');
 		$('#to').val('');		
 	});
 
+	// improve ux
 	$('#from, #to').on('focus', function(){
 		$(this).select();
 	})
 
+	// hide the ugly explanation unless they want it
 	$('.ui.label').on('click', function(){
 		$('p').slideToggle();
 	})
