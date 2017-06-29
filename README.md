@@ -6,6 +6,6 @@
 - - - - 
 
 ### What to do with it:
-* Rekindle the fun you had as a kid with this silly language
+* Translate the Preamble into Pig Latin
+* Watch in real time how the words update into Pig Latin
 * Send people 'secret' messages
-* Translate the Preamble into Pig Latin. 
