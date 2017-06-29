@@ -13,27 +13,29 @@
 
 <div class="ui raised segment" id="main">
 
-  <h1>Pig Latin Converter</h1>
+  <h1>Pig Latin Converter (both ways!)</h1>
 
   <div class="ui form">
     <div class="two fields">
       <div class="field">
-        <label>English</label>
-        <textarea rows="20" cols="50" id="english" placeholder="We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America."></textarea>
+        <label>From</label>
+        <textarea rows="15" id="from">We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</textarea>
       </div>
     
       <div class="field">
-        <label>Pig Latin</label>
-        <textarea rows="20" cols="50" id="pig" placeholder="E-way e-thay Eople-pay of-way e-thay United-way Ates-stay, in-way Order-way o-tay orm-fay a-way ore-may erfect-pay Union-way, establish-way Ustice-jay, insure-way omestic-day Anquility-tray, ovide-pray or-fay e-thay ommon-cay efence-day, omote-pray e-thay eneral-gay Elfare-way, and-way ecure-say e-thay Essings-blay of-way Iberty-lay o-tay ourselves-way and-way our-way Osterity-pay, o-day ordain-way and-way establish-way is-thay Onstitution-cay or-fay e-thay United-way Ates-stay of-way America-way."></textarea>
+        <label>To</label>
+        <textarea rows="15" id="to">e-Way e-thay eople-Pay of-way e-thay United-way ates-Stay, in-way Order-way o-tay orm-fay a-way ore-may erfect-pay Union-way, establish-way ustice-Jay, insure-way omestic-day anquility-Tray, ovide-pray or-fay e-thay ommon-cay efence-day, omote-pray e-thay eneral-gay elfare-Way, and-way ecure-say e-thay essings-Blay of-way iberty-Lay o-tay ourselves-way and-way our-way osterity-Pay, o-day ordain-way and-way establish-way is-thay onstitution-Cay or-fay e-thay United-way ates-Stay of-way America-way.</textarea>
       </div>
     </div>
 
   </div>
 
   <div class="ui buttons">
-    <button class="ui green button">Translate</button>
     <button class="ui red button">Reset</button>
+    <label class="ui label">*</label>
   </div>
+
+  <p>may have a 'w' at the beginning (or just starts with a vowel). This is because of an ambiguity in Pig Latin. 'wart' and 'art' translated into Pig Latin are both 'art-way'. Meaning if a human saw the Pig Latin word 'art-way,' the only way to decide it it's 'wart' or 'art' is context (which requires AI to replicate). I think it's easier to disregard the asterix from words that just start with a vowel than to intuitively know to add a 'w' to words that originally had one.</p>
     
 </div>
 

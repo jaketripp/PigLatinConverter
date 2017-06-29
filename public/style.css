@@ -13,6 +13,21 @@ body {
   margin: 10px 0;
 }
 
-.ui.buttons {
+.buttons {
   width: 100%;
+}
+
+.ui.buttons .button:first-child {
+  border-radius: .28571429rem;
+}
+
+p {
+  font-size: 1.2rem;
+  display: none;
+  margin: 10px;
+}
+
+.ui.label {
+  font-size: 2.0rem;
+  padding: 4px 10px;
 }
