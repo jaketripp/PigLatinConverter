@@ -103,21 +103,10 @@ function handlers(){
 		var text = $('#from').val();
 		$('#to').val(decideAndTranslate(text));		
 	});
-	
-	// reset
-	$('.red').on('click', function(){
-		$('#from').val('');
-		$('#to').val('');		
-	});
 
 	// improve ux
 	$('#from, #to').on('focus', function(){
 		$(this).select();
-	})
-
-	// hide the ugly explanation unless they want it
-	$('.ui.label').on('click', function(){
-		$('p').slideToggle();
 	})
 }
 
